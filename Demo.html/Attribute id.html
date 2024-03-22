@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="my-heading ">heading</h1>
+    <style>
+        #my-heading{
+            background-color:rgb(174, 11, 38);
+        }
+    </style>
+    <script>
+        function test(){
+            document.getElementById("my-heading")[1].style.backgroundColor="blue";
+
+
+        }
+
+    </script>
+    
+</body>
+<h1 id="my-heading">heading</h1>
+<h2 class="my-heading">Heading1</h2>
+<button onclick="test()">test</button>
+<button onclick="Touch()"></button>
+</html>
